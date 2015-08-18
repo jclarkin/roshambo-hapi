@@ -1,0 +1,17 @@
+{
+  "name": "hapi-server",
+  "version": "1.0.0",
+  "description": "Test server for a restful api backend",
+  "main": "server.js",
+  "dependencies": {
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^9.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT"
+}
