@@ -16,3 +16,12 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team
+
+```sh
+curl -sSL https://get.docker.com/ | sh
+
+docker build -t jclarkin/roshambo-hapi .
+docker run --name server1 -p 80:3000 jclarkin/roshambo-hapi
+docker stop server1
+docker push jclarkin/roshambo-hapi
+```
